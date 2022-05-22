@@ -1,0 +1,14 @@
+{
+  "name": "selfie",
+  "version": "1.0.0",
+  "description": "Selfie App by Joey Lee, following Youtube tutorial by Daniel Shiffman",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michelle Duong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
