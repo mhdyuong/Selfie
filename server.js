@@ -1,8 +1,12 @@
-/* What Do I Want My Server To Do 
+/* What Do I May Want My Server To Do 
    1. Serve webpages (html, css, javascript etc)
    2. Recieve requests (save data, send data)
    3. Send responses
+   4. Save to database
+   5. autheticate
 */
+
+//try to use leaflet to add a map to drop a pin on the location
 
 // https://stackoverflow.com/questions/27599614/var-express-requireexpress-var-app-express-what-is-express-is-it
 const express = require('express'); 
