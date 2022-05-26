@@ -16,19 +16,36 @@
     <title>Document</title>
     <style>
         #map{
-            height: 300px;   
+            height: 350px;   
+            width: 70%;  
         }
-    </style>
+     </style>
+     <!-- 
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+     -->
   </head>
   <body>
     
     <h1>Data Selfie App</h1>
     <p>
         latitude: <span id="latitude"></span>&deg;<br/>
-        longitude: <span id="longitude"></span>&deg;
+        longitude: <span id="longitude"></span>&deg; <br/>
+        <button id="update">Update My Location</button>
     </p>
+    <textarea id="text" rows="2" cols="50" placeholder="Type your word/phrase of the day!"></textarea>
+    <br/>
+    <br/>
+    <button id="submit">Submit</button> 
+    <br/>
+    <br/>
     <div id="map"></div>
-    <script src="private/key.js"></script>
-    <script src="location.js"></script>
+    <br/>
+    <br/>
+    <button id="allData"> See All Past Data</button>
+
+    <script src="private/key.js"></script>  
+    <script src="code/location.js"></script>
   </body>
 </html>
